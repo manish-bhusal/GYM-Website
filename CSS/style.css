@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/img/gymgirl.jpg");
+  background-size: cover;
+  color: white;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.header {
+  /* border: 3px solid red; */
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  margin: 23px 32px;
+  padding: 32px;
+}
+
+.left {
+  /* border: 1px solid yellow; */
+  text-align: center;
+}
+.left img {
+  width: 85px;
+}
+
+.left .logo_brand {
+  font-size: 12px;
+}
+
+.center {
+  /* border: 1px solid aqua; */
+}
+
+.center nav ul {
+  margin-left: 210px;
+}
+.center nav ul li {
+  display: inline-block;
+  margin: 2px;
+  padding: 29px;
+  font-size: 22px;
+}
+nav ul li:hover {
+  color: gray;
+}
+
+.right {
+  /* border: 1px solid blue; */
+  display: inline-block;
+}
+
+.right .btn {
+  font-family: "Baloo Bhai 2", cursive;
+  background-color: rgb(156, 50, 50);
+  color: #fff;
+  font-size: 16px;
+  padding: 7px;
+  margin: 0 5px;
+}
+
+.right .btn:hover {
+  color: rgb(247, 221, 221);
+  cursor: pointer;
+}
+
+.container form {
+  margin: 50px 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.container form input {
+  font-family: "Baloo Bhai 2", cursive;
+  margin: 6px;
+  padding: 23px;
+  font-size: 16px;
+  width: 300px;
+  text-align: center;
+  border-radius: 13px;
+}
+
+.container form input.btn {
+  background-color: rgb(156, 50, 50);
+  color: #fff;
+  width: 350px;
+}
+
+.container form input.btn:hover {
+  color: rgb(247, 221, 221);
+  cursor: pointer;
+}
